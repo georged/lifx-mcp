@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIFX MCP Controller</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 min-h-screen">
+    <div class="container mx-auto px-4 py-8">
+        <div class="max-w-2xl mx-auto">
+            <h1 class="text-4xl font-bold text-center mb-8 text-gray-800">LIFX MCP Controller</h1>
+            
+            <div class="bg-white rounded-lg shadow-lg p-6 mb-6">
+                <div class="flex space-x-2">
+                    <input type="text" id="commandInput" 
+                           class="flex-1 px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                           placeholder="Enter command (e.g., 'lights on', 'dim 50%')">
+                    <button onclick="sendCommand()" 
+                            class="px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        Send
+                    </button>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <h2 class="text-xl font-semibold mb-4 text-gray-700">Light Status</h2>
+                <div id="lightStatus" class="space-y-4">
+                    Loading...
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        async function sendCommand() {
+            const command = document.getElementById('commandInput').value;
+            try {
+                const response = await fetch('/mcp/command', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(command)
+                });
+                
+                if (response.ok) {
+                    document.getElementById('commandInput').value = '';
+                    updateLightStatus();
+                }
+            } catch (error) {
+                console.error('Error:', error);
+            }
+        }
+
+        async function updateLightStatus() {
+            try {
+                const response = await fetch('/mcp/lights');
+                const lights = await response.json();
+                
+                const statusHtml = lights.map(light => `
+                    <div class="p-4 border rounded-lg">
+                        <div class="font-medium">${light.label}</div>
+                        <div class="text-sm text-gray-600">
+                            Power: ${light.power}
+                            ${light.brightness ? `| Brightness: ${Math.round(light.brightness * 100)}%` : ''}
+                        </div>
+                    </div>
+                `).join('');
+                
+                document.getElementById('lightStatus').innerHTML = statusHtml;
+            } catch (error) {
+                console.error('Error:', error);
+                document.getElementById('lightStatus').innerHTML = 'Error loading light status';
+            }
+        }
+
+        // Update status every 5 seconds
+        updateLightStatus();
+        setInterval(updateLightStatus, 5000);
+
+        // Handle Enter key in the input field
+        document.getElementById('commandInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                sendCommand();
+            }
+        });
+    </script>
+</body>
+</html> 

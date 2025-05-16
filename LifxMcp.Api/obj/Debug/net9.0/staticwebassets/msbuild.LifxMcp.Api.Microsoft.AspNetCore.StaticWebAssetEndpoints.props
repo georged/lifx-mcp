@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/LifxMcp.Api/index.d5u0rqs8zn.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"d5u0rqs8zn"},{"Name":"integrity","Value":"sha256-oftPUi5y1jAs1TGHrx84pg7YdCoaezwi1N88a\u002B1JHl4="},{"Name":"label","Value":"_content/LifxMcp.Api/index.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3592"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022oftPUi5y1jAs1TGHrx84pg7YdCoaezwi1N88a\u002B1JHl4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 16 May 2025 07:51:03 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/LifxMcp.Api/index.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-oftPUi5y1jAs1TGHrx84pg7YdCoaezwi1N88a\u002B1JHl4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3592"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022oftPUi5y1jAs1TGHrx84pg7YdCoaezwi1N88a\u002B1JHl4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 16 May 2025 07:51:03 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

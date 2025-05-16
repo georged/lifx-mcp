@@ -1,0 +1,362 @@
+{
+  "Version": 1,
+  "Hash": "9B6JKolh7NaTvko0oWwYt9W4xc1tOGZEtTHnp20XjQ0=",
+  "Source": "LifxMcp.Api",
+  "BasePath": "_content/LifxMcp.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "LifxMcp.Api/wwwroot",
+      "Source": "LifxMcp.Api",
+      "ContentRoot": "/Users/theenabler/code/sandpit/lifx-mcp/LifxMcp.Api/wwwroot/",
+      "BasePath": "_content/LifxMcp.Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/theenabler/code/sandpit/lifx-mcp/LifxMcp.Api/obj/Debug/net9.0/compressed/xe2xeg49r5-d5u0rqs8zn.gz",
+      "SourceId": "LifxMcp.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/theenabler/code/sandpit/lifx-mcp/LifxMcp.Api/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/LifxMcp.Api",
+      "RelativePath": "index#[.{fingerprint=d5u0rqs8zn}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/theenabler/code/sandpit/lifx-mcp/LifxMcp.Api/wwwroot/index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "mbt7bmybkv",
+      "Integrity": "zoxJQGbsoVntakD9MScgkiDaO1yCNeJ4IEJNdSrE7aY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/theenabler/code/sandpit/lifx-mcp/LifxMcp.Api/wwwroot/index.html"
+    },
+    {
+      "Identity": "/Users/theenabler/code/sandpit/lifx-mcp/LifxMcp.Api/wwwroot/index.html",
+      "SourceId": "LifxMcp.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/theenabler/code/sandpit/lifx-mcp/LifxMcp.Api/wwwroot/",
+      "BasePath": "_content/LifxMcp.Api",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "d5u0rqs8zn",
+      "Integrity": "oftPUi5y1jAs1TGHrx84pg7YdCoaezwi1N88a+1JHl4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "index.d5u0rqs8zn.html",
+      "AssetFile": "/Users/theenabler/code/sandpit/lifx-mcp/LifxMcp.Api/obj/Debug/net9.0/compressed/xe2xeg49r5-d5u0rqs8zn.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000822368421"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1215"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zoxJQGbsoVntakD9MScgkiDaO1yCNeJ4IEJNdSrE7aY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 07:51:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"oftPUi5y1jAs1TGHrx84pg7YdCoaezwi1N88a+1JHl4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d5u0rqs8zn"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oftPUi5y1jAs1TGHrx84pg7YdCoaezwi1N88a+1JHl4="
+        }
+      ]
+    },
+    {
+      "Route": "index.d5u0rqs8zn.html",
+      "AssetFile": "/Users/theenabler/code/sandpit/lifx-mcp/LifxMcp.Api/wwwroot/index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3592"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oftPUi5y1jAs1TGHrx84pg7YdCoaezwi1N88a+1JHl4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 07:51:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d5u0rqs8zn"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oftPUi5y1jAs1TGHrx84pg7YdCoaezwi1N88a+1JHl4="
+        }
+      ]
+    },
+    {
+      "Route": "index.d5u0rqs8zn.html.gz",
+      "AssetFile": "/Users/theenabler/code/sandpit/lifx-mcp/LifxMcp.Api/obj/Debug/net9.0/compressed/xe2xeg49r5-d5u0rqs8zn.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1215"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zoxJQGbsoVntakD9MScgkiDaO1yCNeJ4IEJNdSrE7aY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 07:51:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d5u0rqs8zn"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zoxJQGbsoVntakD9MScgkiDaO1yCNeJ4IEJNdSrE7aY="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "/Users/theenabler/code/sandpit/lifx-mcp/LifxMcp.Api/obj/Debug/net9.0/compressed/xe2xeg49r5-d5u0rqs8zn.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000822368421"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1215"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zoxJQGbsoVntakD9MScgkiDaO1yCNeJ4IEJNdSrE7aY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 07:51:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"oftPUi5y1jAs1TGHrx84pg7YdCoaezwi1N88a+1JHl4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oftPUi5y1jAs1TGHrx84pg7YdCoaezwi1N88a+1JHl4="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "/Users/theenabler/code/sandpit/lifx-mcp/LifxMcp.Api/wwwroot/index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3592"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oftPUi5y1jAs1TGHrx84pg7YdCoaezwi1N88a+1JHl4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 07:51:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oftPUi5y1jAs1TGHrx84pg7YdCoaezwi1N88a+1JHl4="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "/Users/theenabler/code/sandpit/lifx-mcp/LifxMcp.Api/obj/Debug/net9.0/compressed/xe2xeg49r5-d5u0rqs8zn.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1215"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zoxJQGbsoVntakD9MScgkiDaO1yCNeJ4IEJNdSrE7aY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 07:51:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zoxJQGbsoVntakD9MScgkiDaO1yCNeJ4IEJNdSrE7aY="
+        }
+      ]
+    }
+  ]
+}

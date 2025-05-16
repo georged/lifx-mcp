@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/theenabler/code/sandpit/lifx-mcp/LifxMcp.Api/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.LifxMcp.Api.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.LifxMcp.Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.build.LifxMcp.Api.props",
+      "PackagePath": "build\\LifxMcp.Api.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.LifxMcp.Api.props",
+      "PackagePath": "buildMultiTargeting\\LifxMcp.Api.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.LifxMcp.Api.props",
+      "PackagePath": "buildTransitive\\LifxMcp.Api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
